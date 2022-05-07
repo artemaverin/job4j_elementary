@@ -30,7 +30,7 @@ public class PointTest {
 
     @Test
     public void when213to50then13dot341664064126334() {
-        double expected = 13.341664064126334;
+        double expected = 13.34;
         int x1 = 2;
         int y1 = 13;
         int x2 = 5;
