@@ -10,7 +10,6 @@ public class TriangleTest {
         double ab = 2.0;
         double ac = 2.0;
         double bc = 2.0;
-        boolean expected = true;
         boolean result = Triangle.exist(ab, ac, bc);
         Assert.assertTrue(result);
     }
@@ -20,7 +19,6 @@ public class TriangleTest {
         double ab = 1.0;
         double ac = 2.0;
         double bc = 3.0;
-        boolean expected = false;
         boolean result = Triangle.exist(ab, ac, bc);
         Assert.assertFalse(result);
     }
