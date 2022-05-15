@@ -9,5 +9,17 @@ public class ArrayDefinition {
         System.out.println("Массив ages типа short содержит: " + ages.length + " элементов");
         System.out.println("Массив surnames типа String содержит: " + surnames.length + " элементов");
         System.out.println("Массив prices типа float содержит: " + prices.length + " элементов");
+
+        String[] names = new String[4];
+        names[0] = "Harry Kane";
+        names[1] = "Phil Foden";
+        names[2] = "Jack Grealish";
+        names[3] = "Ollie Watkins";
+
+        System.out.println();
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
     }
 }
