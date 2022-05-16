@@ -22,7 +22,7 @@ public class MatrixCheckTest {
         char[][] input = {
                 {' ', ' ', ' '},
                 {' ', ' ', ' '},
-                {'Q', 'Q', 'Q'},
+                {' ', ' ', ' '},
         };
         int row = 2;
         boolean result = MatrixCheck.monoHorizontal(input, row);
