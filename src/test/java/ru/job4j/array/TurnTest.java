@@ -20,5 +20,4 @@ public class TurnTest {
         int[] expected = new int[] {8, 6, 5, 4, 2};
         Assert.assertArrayEquals(expected, result);
     }
-
 }
