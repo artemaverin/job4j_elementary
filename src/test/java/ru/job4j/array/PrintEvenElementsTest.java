@@ -23,4 +23,5 @@ public class PrintEvenElementsTest {
                 + 13 + ln + 11 + ln + 9 + ln + 7 + ln + 5 + ln + 3 + ln + 1 + ln;
         assertEquals(expected, PrintEvenElements.printEvenInts(numbers));
     }
+
 }
