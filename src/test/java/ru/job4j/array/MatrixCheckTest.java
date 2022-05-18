@@ -127,5 +127,4 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.isWin(input);
         Assert.assertTrue(result);
     }
-
 }
