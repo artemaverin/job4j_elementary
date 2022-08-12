@@ -18,6 +18,7 @@ public class JavaNameValidator {
             }
         }
         return res;
+
     }
 
     public static boolean isSpecialSymbol(int code) {
